@@ -23,10 +23,10 @@ To determine whether a number entered by the user is even or odd using a pointer
 6. Print the result.  
 7. End the program.  
 
-**Source Code:**  
-c
-#include <stdio.h>
+**Source Code:** 
 
+```c
+#include <stdio.h>
 int main()
 {
     int n;
@@ -42,6 +42,7 @@ int main()
 
     return 0;
 }
+```
 
 **output**
 
@@ -77,7 +78,7 @@ To write a C program that calculates the sum of digits of a given number using r
 
 **Source Code:**  
 
-c
+```c
 #include <stdio.h>
 
 // Recursive function
@@ -96,6 +97,7 @@ int main() {
 
     return 0;
 }
+```
 
 **output**
 
@@ -131,7 +133,7 @@ To write a C program that finds and prints the maximum element of each row in a 
 
 **Source Code:** 
 
-c
+```c
 #include<stdio.h>
 int main()
 {
@@ -154,6 +156,7 @@ int main()
     }
     return 0;
 }
+```
 
 **output**
 
@@ -189,7 +192,7 @@ To write a C program that reverses a given string using a pointer.
 
 **Source Code:**  
 
-c
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -218,6 +221,7 @@ int main() {
 
     return 0;
 }
+```
 
 **output**
 
@@ -256,7 +260,7 @@ To write a C program that removes duplicate characters from a given string.
 
 **Source Code:**  
 
-c
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -282,6 +286,7 @@ int main()
     printf("String after removing characters: %s", str);
     return 0;
 }
+```
 
 **output**
 
